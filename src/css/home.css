@@ -1,0 +1,23 @@
+.content-div {
+	color: var(--text);
+	background: var(--bg);
+	transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+}
+
+.content-div::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+.content-div::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+
+.content-div::-webkit-scrollbar-thumb {
+	background: #19569c;
+}
+
+@media only screen and (max-width: 600px) {
+	main {
+		margin: 0;
+	}
+}
