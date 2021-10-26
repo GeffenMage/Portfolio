@@ -5,5 +5,4 @@ import { ViteAliases } from 'vite-aliases';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [svelte(), ViteAliases()],
-	base: 'https://danielduplat.com.br/',
 });

@@ -25,7 +25,3 @@
 		</button>
 	{/if}
 </div>
-
-<style scoped>
-	/* your styles go here */
-</style>
